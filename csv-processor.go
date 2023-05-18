@@ -20,7 +20,7 @@ type User struct {
 }
 
 func main() {
-	file, err := os.Open("./usersheet2.json")
+	file, err := os.Open("./user-report-google-admin")
 	if err != nil {
 		fmt.Println(err)
 	}
